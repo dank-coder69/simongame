@@ -68,7 +68,7 @@ function animation(currentColor){
 }
 // sounds
 function audioPlay(randomColor){
-var playAudio = new Audio("sounds/" + randomColor + ".mp3");
+var playAudio = new Audio(randomColor + ".mp3");
 playAudio.play();
 }
 // start again
